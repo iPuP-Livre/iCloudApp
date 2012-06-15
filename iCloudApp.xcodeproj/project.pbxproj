@@ -15,6 +15,11 @@
 		E0C7A7C81532DCE000A78427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7C71532DCE000A78427 /* main.m */; };
 		E0C7A7CC1532DCE000A78427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7CB1532DCE000A78427 /* AppDelegate.m */; };
 		E0C7A7CF1532DCE100A78427 /* iCloudApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7CD1532DCE100A78427 /* iCloudApp.xcdatamodeld */; };
+		E0C7A7D71532DDCA00A78427 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7D61532DDCA00A78427 /* ListTableViewController.m */; };
+		E0C7A7DB1532DDF500A78427 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7D91532DDF500A78427 /* SettingsViewController.m */; };
+		E0C7A7DC1532DDF500A78427 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C7A7DA1532DDF500A78427 /* SettingsViewController.xib */; };
+		E0C7A7DF1532E3DB00A78427 /* Pseudo.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7DE1532E3DB00A78427 /* Pseudo.m */; };
+		E0C7A7E41532F52700A78427 /* iCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C7A7E31532F52700A78427 /* iCloudManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +28,23 @@
 		E0C7A7BB1532DCE000A78427 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0C7A7BD1532DCE000A78427 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E0C7A7BF1532DCE000A78427 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E0C7A7C31532DCE000A78427 /* iCloudApp-Info.plist */ = {isa = PBXFileReference; path = "iCloudApp-Info.plist"; sourceTree = "<group>"; };
+		E0C7A7C31532DCE000A78427 /* iCloudApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCloudApp-Info.plist"; sourceTree = "<group>"; };
 		E0C7A7C51532DCE000A78427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0C7A7C71532DCE000A78427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0C7A7C91532DCE000A78427 /* iCloudApp-Prefix.pch */ = {isa = PBXFileReference; path = "iCloudApp-Prefix.pch"; sourceTree = "<group>"; };
-		E0C7A7CA1532DCE000A78427 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0C7A7C91532DCE000A78427 /* iCloudApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCloudApp-Prefix.pch"; sourceTree = "<group>"; };
+		E0C7A7CA1532DCE000A78427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0C7A7CB1532DCE000A78427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0C7A7CE1532DCE100A78427 /* iCloudApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCloudApp.xcdatamodel; sourceTree = "<group>"; };
+		E0C7A7D51532DDCA00A78427 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		E0C7A7D61532DDCA00A78427 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		E0C7A7D81532DDF500A78427 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E0C7A7D91532DDF500A78427 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E0C7A7DA1532DDF500A78427 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		E0C7A7DD1532E3DB00A78427 /* Pseudo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pseudo.h; sourceTree = "<group>"; };
+		E0C7A7DE1532E3DB00A78427 /* Pseudo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pseudo.m; sourceTree = "<group>"; };
+		E0C7A7E21532F52700A78427 /* iCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCloudManager.h; sourceTree = "<group>"; };
+		E0C7A7E31532F52700A78427 /* iCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCloudManager.m; sourceTree = "<group>"; };
+		E0C7A7E51532FE6B00A78427 /* iCloudApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iCloudApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +93,20 @@
 		E0C7A7C11532DCE000A78427 /* iCloudApp */ = {
 			isa = PBXGroup;
 			children = (
+				E0C7A7E51532FE6B00A78427 /* iCloudApp.entitlements */,
 				E0C7A7CA1532DCE000A78427 /* AppDelegate.h */,
 				E0C7A7CB1532DCE000A78427 /* AppDelegate.m */,
 				E0C7A7CD1532DCE100A78427 /* iCloudApp.xcdatamodeld */,
+				E0C7A7DD1532E3DB00A78427 /* Pseudo.h */,
+				E0C7A7DE1532E3DB00A78427 /* Pseudo.m */,
 				E0C7A7C21532DCE000A78427 /* Supporting Files */,
+				E0C7A7D51532DDCA00A78427 /* ListTableViewController.h */,
+				E0C7A7D61532DDCA00A78427 /* ListTableViewController.m */,
+				E0C7A7D81532DDF500A78427 /* SettingsViewController.h */,
+				E0C7A7D91532DDF500A78427 /* SettingsViewController.m */,
+				E0C7A7DA1532DDF500A78427 /* SettingsViewController.xib */,
+				E0C7A7E21532F52700A78427 /* iCloudManager.h */,
+				E0C7A7E31532F52700A78427 /* iCloudManager.m */,
 			);
 			path = iCloudApp;
 			sourceTree = "<group>";
@@ -149,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C7A7C61532DCE000A78427 /* InfoPlist.strings in Resources */,
+				E0C7A7DC1532DDF500A78427 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +188,10 @@
 				E0C7A7C81532DCE000A78427 /* main.m in Sources */,
 				E0C7A7CC1532DCE000A78427 /* AppDelegate.m in Sources */,
 				E0C7A7CF1532DCE100A78427 /* iCloudApp.xcdatamodeld in Sources */,
+				E0C7A7D71532DDCA00A78427 /* ListTableViewController.m in Sources */,
+				E0C7A7DB1532DDF500A78427 /* SettingsViewController.m in Sources */,
+				E0C7A7DF1532E3DB00A78427 /* Pseudo.m in Sources */,
+				E0C7A7E41532F52700A78427 /* iCloudManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +259,7 @@
 		E0C7A7D31532DCE100A78427 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iCloudApp/iCloudApp.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCloudApp/iCloudApp-Prefix.pch";
 				INFOPLIST_FILE = "iCloudApp/iCloudApp-Info.plist";
@@ -240,6 +271,7 @@
 		E0C7A7D41532DCE100A78427 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iCloudApp/iCloudApp.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCloudApp/iCloudApp-Prefix.pch";
 				INFOPLIST_FILE = "iCloudApp/iCloudApp-Info.plist";
